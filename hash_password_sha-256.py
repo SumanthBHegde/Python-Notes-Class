@@ -16,9 +16,3 @@ password = input("Input the password: ")
 hashed_password = hash_password(password)
 print(f"Your hashed password is: {hashed_password}")
 
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git branch -M main
-# git remote add origin https://github.com/SumanthBHegde/Python-Notes-Class.git
-# git push -u origin main
