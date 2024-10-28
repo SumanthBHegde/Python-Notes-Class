@@ -9,7 +9,6 @@ def bruteforec (password):
         for guess in itertools.product(chars,repeat=length):
             attempts += 1
             guess = ''.join(guess)
-            print(guess)
             if guess == password:
                 return (attempts, guess)
         return(attempts, None)
